@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURAWIZ® | Uttarakhand Tourism</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<style>
+*{font-family:'Poppins',sans-serif}
+html{scroll-behavior:smooth}
+body{background:#050816;color:white;overflow-x:hidden}
+.hero-overlay{background:linear-gradient(to bottom,rgba(0,0,0,.35),rgba(5,8,22,.95))}
+.glass{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(14px);
+border:1px solid rgba(255,255,255,.1)
+}
+.gradient-text{
+background:linear-gradient(90deg,#38bdf8,#22c55e,#facc15);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+.package-card:hover{transform:translateY(-8px)}
+</style>
+</head>
+
+<body>
+
+<nav class="fixed top-0 left-0 w-full z-50 glass">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<h1 class="text-2xl font-extrabold">AURA<span class="text-cyan-400">WIZ®</span></h1>
+
+<div class="hidden md:flex gap-8">
+<a href="#destinations">Destinations</a>
+<a href="#packages">Packages</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
+
+<section class="relative h-screen overflow-hidden">
+
+<div class="absolute inset-0 hero-overlay"></div>
+
+<div class="absolute inset-0 flex items-center">
+<div class="max-w-7xl mx-auto px-6">
+
+<div data-aos="fade-up">
+<p class="uppercase tracking-[0.4em] text-cyan-300 mb-4">
+Explore Devbhoomi Uttarakhand
+</p>
+
+<h1 class="text-5xl md:text-7xl font-extrabold leading-tight max-w-4xl">
+Travel Beyond Limits With
+<span class="gradient-text">AURAWIZ®</span>
+</h1>
+
+<p class="mt-6 text-gray-200 max-w-2xl text-lg leading-8">
+Discover Char Dham Yatra, Haridwar spirituality, Rishikesh adventures,
+snow-clad Himalayan ranges and hidden gems of Uttarakhand with curated journeys.
+</p>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="py-24" id="destinations">
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-16">
+<h2 class="text-5xl font-bold">
+Explore <span class="gradient-text">Uttarakhand</span>
+</h2>
+</div>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="glass rounded-3xl overflow-hidden package-card transition">
+<img class="h-72 w-full object-cover"
+ src="./images/Haridwar1.jpg" alt="">
+
+<div class="p-6">
+<h3 class="text-2xl font-semibold">Haridwar Ganga Aarti</h3>
+
+<p class="mt-3 text-gray-300">
+Experience the divine evening aarti at Har Ki Pauri surrounded by spiritual energy.
+</p>
+</div>
+</div>
+
+<div class="glass rounded-3xl overflow-hidden package-card transition">
+<img class="h-72 w-full object-cover"
+ src="./images/Uk2.jpg" alt="">
+
+<div class="p-6">
+<h3 class="text-2xl font-semibold">Rishikesh</h3>
+
+<p class="mt-3 text-gray-300">
+Yoga capital of the world with rafting, cafés, temples and Himalayan vibes.
+</p>
+</div>
+</div>
+
+<div class="glass rounded-3xl overflow-hidden package-card transition">
+<img class="h-72 w-full object-cover"
+ src="./images/Nainital1.jpg" alt="">
+
+<div class="p-6">
+<h3 class="text-2xl font-semibold">Nainital</h3>
+
+<p class="mt-3 text-gray-300">
+Beautiful lake city surrounded by Kumaon hills and scenic viewpoints.
+</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="packages" class="py-24 bg-white/[0.03]">
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-16">
+<h2 class="text-5xl font-bold">
+Char Dham <span class="gradient-text">Packages</span>
+</h2>
+</div>
+
+<div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+
+<div class="glass rounded-3xl overflow-hidden package-card transition">
+<img class="h-56 w-full object-cover"
+src="./images/Kedarnath.jpg" alt="">
+<div class="p-6">
+<h3 class="text-2xl font-bold">Kedarnath</h3>
+<p class="mt-3 text-gray-300">Premium Kedarnath pilgrimage packages.</p>
+</div>
+</div>
+
+<div class="glass rounded-3xl overflow-hidden package-card transition">
+<img class="h-56 w-full object-cover"
+src="./images/Badrinath1.jpg" alt="">
+<div class="p-6">
+<h3 class="text-2xl font-bold">Badrinath</h3>
+<p class="mt-3 text-gray-300">Comfortable Badrinath tours with stays.</p>
+</div>
+</div>
+
+<div class="glass rounded-3xl overflow-hidden package-card transition">
+<img class="h-56 w-full object-cover"
+src="./images/Gangotri1.jpg" alt="">
+<div class="p-6">
+<h3 class="text-2xl font-bold">Gangotri</h3>
+<p class="mt-3 text-gray-300">Sacred origin journey of Maa Ganga.</p>
+</div>
+</div>
+
+<div class="glass rounded-3xl overflow-hidden package-card transition">
+<img class="h-56 w-full object-cover"
+src="./images/Yamnotri1.jpg" alt="">
+<div class="p-6">
+<h3 class="text-2xl font-bold">Yamunotri</h3>
+<p class="mt-3 text-gray-300">Peaceful Himalayan temple experience.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center">
+
+<div>
+<h2 class="text-5xl font-bold">
+Navigate Through <span class="gradient-text">Devbhoomi</span>
+</h2>
+
+<p class="mt-6 text-gray-300 leading-8">
+Explore beautiful Uttarakhand routes from Delhi and all major Indian states.
+AURAWIZ® provides complete cab, hotel and pilgrimage support.
+</p>
+</div>
+
+<div class="rounded-3xl overflow-hidden border border-white/10">
+<iframe class="w-full h-[500px]"
+src="https://maps.google.com/maps?q=uttarakhand&t=&z=7&ie=UTF8&iwloc=&output=embed">
+</iframe>
+</div>
+
+</div>
+</section>
+
+<section id="about" class="py-24">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+
+<div>
+<img class="rounded-3xl"
+src="./images/Nainital2.jpg" alt="">
+</div>
+
+<div>
+<h2 class="text-5xl font-bold">
+About <span class="gradient-text">AURAWIZ®</span>
+</h2>
+
+<p class="mt-8 text-gray-300 leading-8">
+Welcome to AURAWIZ® – Redefining the Way You Move.
+Based in Haldwani with a Pan-India footprint, we specialize in premium transportation,
+curated stays, spiritual tourism and unforgettable travel journeys since 2018.
+</p>
+
+</div>
+
+</div>
+</section>
+
+<section class="py-24">
+<div class="max-w-5xl mx-auto px-6">
+<div class="glass rounded-[40px] p-12 text-center">
+
+<h2 class="text-5xl font-bold">
+Contact AURAWIZ®
+</h2>
+
+<p class="mt-8 text-2xl text-cyan-300 font-semibold">
++91 877 014 9605
+</p>
+
+<p class="mt-4 text-xl text-gray-300">
+aurawiz5@gmail.com
+</p>
+
+</div>
+</div>
+</section>
+
+<footer id="contact" class="border-t border-white/10 py-10">
+<div class="max-w-7xl mx-auto px-6 flex justify-between flex-col md:flex-row gap-6">
+
+<div>
+<h2 class="text-2xl font-bold">AURAWIZ®</h2>
+<p class="text-gray-400 mt-3">
+Your Global Gateway to Unforgettable Journeys.
+</p>
+</div>
+
+<div class="text-gray-300">
+<p>Phone: +91 877 014 9605</p>
+<p class="mt-2">Email: aurawiz5@gmail.com</p>
+<p class="mt-2">Haldwani, Uttarakhand</p>
+</div>
+
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1000,
+once:true
+});
+
+new Swiper(".heroSwiper",{
+loop:true,
+autoplay:{
+delay:3500,
+disableOnInteraction:false
+},
+effect:"fade"
+});
+</script>
+
+</body>
+</html>
